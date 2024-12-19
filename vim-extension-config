@@ -9,11 +9,11 @@ add the following config to it:
     "vim.insertModeKeyBindings": [],
     "vim.normalModeKeyBindings": [
         {
-            "before": ["H"], // Focus previous tab at the left
+            "before": ["H"],
             "commands": ["workbench.action.previousEditor"]
         },
         {
-            "before": ["L"], // Focus next tab at the right
+            "before": ["L"],
             "commands": ["workbench.action.nextEditor"]
         },
         {
@@ -25,8 +25,12 @@ add the following config to it:
             "commands": [":set nu"]
         },
         {
-            "before": ["<leader>", "2"],
-            "commands": ["workbench.view.explorer"]
+            "before": ["<leader>", "h"],
+            "commands": [":split"]
+        },
+        {
+            "before": ["<leader>", "v"],
+            "commands": [":vsplit"]
         },
         {
             "before": ["m", "m"],
