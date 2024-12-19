@@ -2,7 +2,11 @@ press “ctrl+shift+p” and search “preferences: open user settings (json)”
 add the following config to it:
 
 {
+    "window.commandCenter": 1,
+    "go.toolsManagement.autoUpdate": true,
     "vim.leader": ",",
+    "vim.commandLineModeKeyBindings": [],
+    "vim.insertModeKeyBindings": [],
     "vim.normalModeKeyBindings": [
         {
             "before": ["H"], // Focus previous tab at the left
@@ -32,7 +36,6 @@ add the following config to it:
             "before": ["m", "s"],
             "commands": ["editor.action.goToReferences"]
         },
-
         {
             "before": ["g", "r"],
             "commands": ["editor.action.goToReferences"]
@@ -57,7 +60,9 @@ add the following config to it:
     "vim.operatorPendingModeKeyBindingsNonRecursive": [],
     "vim.handleKeys": {
         "<C-p>": false,
-        "<C-b>": false
+        "<C-b>": false,
+        "<C-j>": false
     },
     "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
 }
