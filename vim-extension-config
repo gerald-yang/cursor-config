@@ -1,0 +1,63 @@
+press “ctrl+shift+p” and search “preferences: open user settings (json)”
+add the following config to it:
+
+{
+    "vim.leader": ",",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["H"], // Focus previous tab at the left
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["L"], // Focus next tab at the right
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<leader>", "r"],
+            "commands": [":set rnu"]
+        },
+        {
+            "before": ["<leader>", "n"],
+            "commands": [":set nu"]
+        },
+        {
+            "before": ["<leader>", "2"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["m", "m"],
+            "after": ["<C-]>"]
+        },
+        {
+            "before": ["m", "s"],
+            "commands": ["editor.action.goToReferences"]
+        },
+
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.goToReferences"]
+        },
+        {
+            "before": ["J"],
+            "after": ["<C-d>"]
+        },
+        {
+            "before": ["K"],
+            "after": ["<C-u>"]
+        },
+        {
+            "before": ["g", "n"],
+            "commands": ["workbench.action.editor.nextChange"]
+        },
+        {
+            "before": ["g", "p"],
+            "commands": ["workbench.action.editor.previousChange"]
+        },
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [],
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-b>": false
+    },
+    "editor.lineNumbers": "relative",
+}
