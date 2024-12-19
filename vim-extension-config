@@ -33,6 +33,22 @@ add the following config to it:
             "commands": [":vsplit"]
         },
         {
+            "before": ["m", "h"],
+            "after": ["<C-w>", "h"]
+        },
+        {
+            "before": ["m", "l"],
+            "after": ["<C-w>", "l"]
+        },
+        {
+            "before": ["m", "k"],
+            "after": ["<C-w>", "k"]
+        },
+        {
+            "before": ["m", "j"],
+            "after": ["<C-w>", "j"]
+        },
+        {
             "before": ["m", "m"],
             "after": ["<C-]>"]
         },
