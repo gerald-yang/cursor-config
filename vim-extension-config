@@ -64,7 +64,6 @@ add the following config to it:
     "vim.operatorPendingModeKeyBindingsNonRecursive": [],
     "vim.handleKeys": {
         "<C-p>": false,
-        "<C-b>": false,
         "<C-j>": false
     },
     "editor.lineNumbers": "relative",
