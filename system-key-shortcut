@@ -1,6 +1,6 @@
 find <ctrl+b> and also add <ctrl+h> to it
 
-<ctrl+o> -> go to symbol in editor, used to search definition (ctrl + shift + o)
+<ctrl+o> -> go to symbol in workspace, used to search definition (ctrl + T), <ctrl + shift + o> by default is used to search symbol in current file
 <ctrl+f> -> switch to left side file browser (ctrl + shift + e)
 <ctrl+h> -> left side file browser
 <ctrl+j> -> bottom side terminal
