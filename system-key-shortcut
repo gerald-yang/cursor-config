@@ -3,8 +3,8 @@ search "user" for all customized configs
 
 <ctrl+m> -> go to symbol in workspace, used to search definition (ctrl + T)
 <ctrl+u> -> go to symbol in current file <ctrl + shift + o>
-<ctrl+i> -> go backward <ctrl + alt + ->
-<ctrl+o> -> go forward <ctrl + shift + ->
+<ctrl+o> -> go backward <ctrl + alt + ->
+<ctrl+i> -> go forward <ctrl + shift + ->
 <ctrl+f> -> switch to left side file browser (ctrl + shift + e, toggle primary side bar visibility)
 <ctrl+h> -> left side file browser (view: show explorer)
 <ctrl+j> -> bottom side terminal
