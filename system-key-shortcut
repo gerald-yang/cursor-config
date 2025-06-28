@@ -5,7 +5,7 @@ search "user" for all customized configs
 <ctrl+u> -> go to symbol in current file <ctrl + shift + o>
 <ctrl+o> -> go backward <ctrl + alt + ->
 <ctrl+i> -> go forward <ctrl + shift + ->
-<ctrl+f> -> switch to left side file browser (ctrl + shift + e, toggle primary side bar visibility)
-<ctrl+h> -> left side file browser (view: show explorer)
+<ctrl+h> -> switch to left side file browser (ctrl + shift + e, toggle primary side bar visibility)
+<ctrl+f> -> view: toggle primary side bar
 <ctrl+j> -> bottom side terminal
 <ctrl+l> -> right side chat
