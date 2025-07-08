@@ -8,4 +8,5 @@ search "user" for all customized configs
 <ctrl+h> -> switch to left side file browser (ctrl + shift + e, toggle primary side bar visibility)
 <ctrl+f> -> view: toggle primary side bar
 <ctrl+j> -> bottom side terminal
-<ctrl+l> -> right side chat
+<ctrl+l> -> right side agent mode (open chat in agent mode)
+<ctrl+a> -> right side ask mode (open chat in ask mode)
