@@ -53,7 +53,7 @@ add the following config to it:
             "after": ["<C-]>"]
         },
         {
-            "before": ["m", "s"],
+            "before": ["m", "c"],
             "commands": ["editor.action.goToReferences"]
         },
         {
