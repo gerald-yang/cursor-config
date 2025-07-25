@@ -1,9 +1,13 @@
 #!/bin/bash
 
-username=$(whoami)
+if [ -z "$1" ]; then
+        echo "Usage: ./install {downloaded cursor appimage}"
+        exit -1
+fi
 
+username=$(whoami)
 mkdir -p ~/bin
-curl -L https://downloader.cursor.sh/linux/appImage/x64 -o ~/bin/cursor.AppImage
+cp -f "$1" ~/bin/cursor.AppImage
 chmod +x ~/bin/cursor.AppImage
 cp cursor.png ~/bin/
 
