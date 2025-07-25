@@ -10,7 +10,7 @@ cp cursor.png ~/bin/
 bash -c "cat > /home/$username/.local/share/applications/cursor.desktop" <<EOL
 [Desktop Entry]
 Name=Cursor AI IDE
-Exec=/home/$username/bin/cursor.AppImage
+Exec=/home/$username/bin/cursor.AppImage --no-sandbox
 Icon=/home/$username/bin/cursor.png
 Type=Application
 Categories=Development;
